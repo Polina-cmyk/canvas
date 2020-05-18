@@ -1,0 +1,29 @@
+canvas {
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+}
+
+#marker {
+    background: #000;
+    width: 10px;
+    height: 10px;
+    margin:10px;
+    border-radius: 100%;
+}
+
+.brush-size {
+    display: flex;
+}
+.paint {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
